@@ -4,6 +4,7 @@
 import snowflake.snowpark as snowpark
 from snowflake.snowpark.functions import col
 import pandas as pd
+
 import numpy as np
 
 def main(session: snowpark.Session): 
